@@ -1,0 +1,26 @@
+baseurl = "http://blog.synapsegarden.net"
+languageCode = "en-us"
+title = "SynapseGarden Weblog"
+theme = "redlounge"
+copyright = "Bodie Solomon"
+
+[Author]
+	name = "Bodie Solomon"
+
+[Permalinks]
+	blog = "/:year/:month/:filename/"
+	code = "/:filename/"
+
+[Taxonomies]
+	tag = "tags"
+	series = "series"
+	series-desc = "series-desc"
+
+[params]
+	description = "The current affairs of SG."
+	twitter = "https://twitter.com/synapsegarden"
+	github = "https://github.com/synapse-garden"
+	gplus = "https://plus.google.com/+BodieSolomon"
+	disqusShortname = "sg-hugo-blog"
+	Copyright = "© 2015 SynapseGarden."
+
