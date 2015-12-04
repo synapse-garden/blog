@@ -9,6 +9,7 @@ rm config.toml README.md .gitignore LICENSE
 rm -rf content layouts themes static
 mv public/* ./
 echo "*.sw[nop]" > .gitignore
+echo ".gitmodules" >> .gitignore
 echo "blog.synapsegarden.net" > CNAME
 rm -rf public
 rm deploy.sh
