@@ -14,7 +14,7 @@ updated early each Monday.
 
 <!--more-->
 
-## Purpose
+## What?
 
 SynapseGarden is a fully free and open platform for a new human ecosystem,
 using technologies devised to empower the construction of communities.  The
@@ -32,6 +32,8 @@ This is our first public statement of purpose.  Now, we’d like to invite you
 to join in.  There’s a great deal to be done, but many hands make light work.
 The reward for this labor is simple but powerful: leadership in a community of
 leaders, and access to labor according to your contribution.
+
+## Why?
 
 Crowd labor isn’t, and shouldn’t be free unless it’s donated.  All labor is
 valuable.  Your mind is valuable.  Your ideas are valuable.  We won’t ask or
@@ -53,9 +55,11 @@ can all share in more data.  We can all learn more about how people interact
 in communities, and we can all use that knowledge to build better communities,
 together.
 
+## See you around.
+
 We hope you’ve enjoyed learning about what we’re doing, and what is yet to
 come.  We’ll soon have more content up at http://synapsegarden.net; until
 then, you can visit our Github at https://github.com/synapse-garden to see
 some of the projects we’ve been working on.
 
-Have a great week!
+### Have a great week!
