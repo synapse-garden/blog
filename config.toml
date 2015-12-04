@@ -12,12 +12,8 @@ copyright = "Bodie Solomon"
 	code = "/:filename/"
 
 [[menu.main]]
-	name = "Facets"
-	url = "/facets"
-
-[[menu.main]]
 	name = "Core"
-	url = "/facets/core"
+	url = "/core"
 
 [[menu.social]]
 	pre = "<i class='fa fa-github'></i>"
@@ -35,7 +31,7 @@ copyright = "Bodie Solomon"
 	identifier = "google-plus"
 
 [[menu.footer]]
-	name = "SG Weblog"
+	name = "SG Weblog Source"
 	url = "https://github.com/synapse-garden/blog"
 
 [Taxonomies]
@@ -44,6 +40,8 @@ copyright = "Bodie Solomon"
 	series-desc = "series-desc"
 
 [params]
+	sidebartitle = "SG"
+	sidebartagline = "Welcome."
 	description = "The current affairs of SG."
 	twitter = "https://twitter.com/synapsegarden"
 	github = "https://github.com/synapse-garden"
