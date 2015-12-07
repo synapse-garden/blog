@@ -6,18 +6,18 @@ git checkout --orphan "${buildid}"
 
 hugo -b 'http://blog.synapsegarden.net'
 rm config.toml README.md .gitignore LICENSE
-rm -rf content layouts themes static
+rm -rf content layouts themes static .gitmodules
 mv public/* ./
-echo "*.sw[nop]" > .gitignore
-echo ".gitmodules" >> .gitignore
-echo "blog.synapsegarden.net" > CNAME
 rm -rf public
+echo "*.sw[nop]" > .gitignore
+echo "blog.synapsegarden.net" > CNAME
 rm deploy.sh
 
 git add . --all
 
 git commit -m "Build ${buildid}"
 git checkout gh-pages
-git merge --strategy-option theirs "${buildid}" --squash
+rm -rf *
+git checkout "${buildid}" -- . # Checkout everything
+git add . --all
 git branch -D "${buildid}"
-
