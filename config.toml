@@ -11,16 +11,40 @@ copyright = "Bodie Solomon"
 	blog = "/:year/:month/:filename/"
 	code = "/:filename/"
 
+[[menu.main]]
+	name = "Core"
+	url = "/core"
+
+[[menu.social]]
+	pre = "<i class='fa fa-github'></i>"
+	url = "https://github.com/synapse-garden"
+	identifier = "github"
+
+[[menu.social]]
+	pre = "<i class='fa fa-twitter'></i>"
+	url = "https://twitter.com/synapsegarden"
+	identifier = "twitter"
+
+[[menu.social]]
+	pre = "<i class='fa fa-google-plus'></i>"
+	url = "https://plus.google.com/101925672692033800285"
+	identifier = "google-plus"
+
+[[menu.footer]]
+	name = "SG Weblog Source"
+	url = "https://github.com/synapse-garden/blog"
+
 [Taxonomies]
 	tag = "tags"
 	series = "series"
 	series-desc = "series-desc"
 
 [params]
+	sidebartitle = "SG"
+	sidebartagline = "Welcome."
 	description = "The current affairs of SG."
 	twitter = "https://twitter.com/synapsegarden"
 	github = "https://github.com/synapse-garden"
 	gplus = "https://plus.google.com/+BodieSolomon"
 	disqusShortname = "sg-hugo-blog"
-	Copyright = "© 2015 SynapseGarden."
-
+	Copyright = "2015 SynapseGarden."
