@@ -62,4 +62,12 @@ come.  We’ll soon have more content up at http://synapsegarden.net; until
 then, you can visit our Github at https://github.com/synapse-garden to see
 some of the projects we’ve been working on.
 
+You can sign up here for more info, and access to our closed alpha services.
+
+{{< divid reg-email >}}
+{{< divid reg-button >}}
+{{< divid output >}}
+{{< dart main >}}
+
 ### Have a great week!
+
