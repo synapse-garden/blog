@@ -67,7 +67,7 @@ You can sign up here for more info, and access to our closed alpha services.
 {{< divid reg-email >}}
 {{< divid reg-button >}}
 {{< divid output >}}
-{{< dart main >}}
+{{< dart simple-reg >}}
 
 ### Have a great week!
 
