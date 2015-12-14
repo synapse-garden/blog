@@ -3,13 +3,18 @@
   
   <url>
     <loc>http://blog.synapsegarden.net/</loc>
-    <lastmod>2015-12-07T10:00:00-05:00</lastmod>
+    <lastmod>2015-12-14T05:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>http://blog.synapsegarden.net/dev/beginnings/</loc>
+    <lastmod>2015-12-14T05:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.synapsegarden.net/core/welcome/</loc>
-    <lastmod>2015-12-07T10:00:00-05:00</lastmod>
+    <lastmod>2015-12-07T05:00:00-05:00</lastmod>
   </url>
   
 </urlset>

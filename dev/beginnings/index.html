@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <title>
+    Beginnings // SynapseGarden Weblog
+  </title>
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<meta name="description" content="Weekly update 2015-12-14.">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="generator" content="Hugo 0.15-DEV" />
+
+  <meta property="og:title" content="Beginnings" />
+<meta property="og:description" content="Weekly update 2015-12-14." />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:url" content="http://blog.synapsegarden.net/dev/beginnings/" />
+
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/base-min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css">
+  
+  
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/grids-responsive-min.css">
+  
+  
+
+  <link rel="stylesheet" href="http://blog.synapsegarden.net//css/redlounge.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,200,100,700,300,500,600,800' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="SynapseGarden Weblog" />
+
+    
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/tomorrow-night-bright.min.css">
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  
+
+  
+
+  
+</head>
+
+<body>
+	
+
+	<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    
+
+	
+
+    <h1 class="brand-title">SG</h1>
+    <h2 class="brand-tagline">Planting time.</h2>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><span class="nav-item-separator">//</span><a href="http://blog.synapsegarden.net/">Home</a></li>
+        
+          <li class="nav-item"><span class="nav-item-separator">//</span><a href="/core/">Core</a></li>
+        
+          <li class="nav-item"><span class="nav-item-separator">//</span><a href="/dev/">Dev</a></li>
+        
+      </ul>
+    </nav>
+
+    
+    <div class="social-buttons">
+      
+        
+        <a href="https://github.com/synapse-garden" target="_blank"><i class='fa fa-github'></i></a>
+        
+      
+        
+        <a href="https://plus.google.com/101925672692033800285" target="_blank"><i class='fa fa-google-plus'></i></a>
+        
+      
+        
+        <a href="https://twitter.com/synapsegarden" target="_blank"><i class='fa fa-twitter'></i></a>
+        
+      
+      
+    </div>
+    
+
+  </div>
+</div>
+
+	
+	
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+		<a name="top"></a>
+		
+
+		
+			
+		    <div id="toc" class="pure-u-1 pure-u-md-1-4">
+				<small class="toc-label">Contents</small>
+		   	 	<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#polymer-dart-does-not-play-well-with-others:6bce3dfe5168a762038ec36830bc213f">Polymer-Dart: does not play well with others.</a></li>
+<li><a href="#this-week:6bce3dfe5168a762038ec36830bc213f">This week</a></li>
+<li><a href="#dash-you-say:6bce3dfe5168a762038ec36830bc213f">Dash you say?</a></li>
+<li><a href="#dart-you-say:6bce3dfe5168a762038ec36830bc213f">Dart you say?</a>
+<ul>
+<li><a href="#see-you-next-week:6bce3dfe5168a762038ec36830bc213f">See you next week!</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+		    </div>
+		    
+	    
+  		<section class="post">
+            <h1 class="post-title">
+              <a href="/dev/beginnings/">Beginnings</a>
+            </h1>
+            <h3 class="post-subtitle">
+            	
+            </h3>
+            
+            	<span class="post-date">
+                	<span class="post-date-day"><sup>14</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Dec</span> <span class="post-date-year">2015</span>
+            	</span>
+            	
+            
+            	
+            
+
+			
+			
+				<div class="post-categories">
+				
+					<a class="post-category post-category-continuation" href="http://blog.synapsegarden.net//categories/continuation">Continuation</a>
+				
+					<a class="post-category post-category-dev" href="http://blog.synapsegarden.net//categories/dev">Dev</a>
+				
+				</div>
+			
+
+			
+
+			
+
+            
+
+<p>In which a brief overview of current SG software and roadmap is given.  This
+week&rsquo;s adventures: Dart, Polymer, and Hugo.</p>
+
+<p>Hello again.  This week our attention has been focused on creating a small
+browser client for the prototype Mindfork backend we have running here:</p>
+
+<p><div id="source"></div>
+
+<script async src="/script/js/source.dart.js"></script>
+</p>
+
+<h2 id="polymer-dart-does-not-play-well-with-others:6bce3dfe5168a762038ec36830bc213f">Polymer-Dart: does not play well with others.</h2>
+
+<p>The SynapseGarden Weblog is a <a href="https://gohugo.io">Hugo</a> blog hosted on Github
+Pages.  Embedded scripts must therefore require minimal modification to HTML
+content, since it is generated from Markdown.</p>
+
+<p>This sets the expectations well for our web client.  Right now we&rsquo;re working
+out the details of our client architecture, but there are some basic
+requirements out the gate:</p>
+
+<ul>
+<li>Must provide easily distributed reusable standalone components.</li>
+<li>These components must be usable together in a greater app context.</li>
+<li>These components must offer backend connectors for Mindfork.</li>
+</ul>
+
+<p>We therefore kept these elements at the forefront during the week&rsquo;s work with
+<a href="https://github.com/dart-lang/polymer-dart">Polymer-Dart</a>.  Alas, it is far
+from a match made in heaven.  While Polymer-Dart seems to meet our needs
+nicely, the reality is that it has strong expectations about the structure
+and content of the entire site it works within, to the extent that it
+generates the HTML index which it expects to work with, with significant
+mangling.</p>
+
+<p>It&rsquo;s possible this could be picked apart and found to be workable, and we&rsquo;d
+love for it to be.  However, it doesn&rsquo;t look like this is the framework we
+need for Dash.</p>
+
+<h2 id="this-week:6bce3dfe5168a762038ec36830bc213f">This week</h2>
+
+<p>The next section is a brief overview of our week exploring Polymer-Dart for
+our Dash frontend.  In this section, we&rsquo;ll outline what we&rsquo;re working on this
+week.</p>
+
+<p>Right now, we have a simple prototype Mindfork service running at
+<a href="https://mfp.synapsegarden.net:25000">https://mfp.synapsegarden.net:25000</a>.  The source is linked above; we
+encourage you to review the API and open a pull request if you see anything
+you&rsquo;d like to add.</p>
+
+<p>In the meantime, we&rsquo;re pushing forward on offering an embedded web login
+panel and a few other features (e.g. password reset) so that logins can be
+handed out and automated collaboration begin in earnest.</p>
+
+<h2 id="dash-you-say:6bce3dfe5168a762038ec36830bc213f">Dash you say?</h2>
+
+<p>Dash is a concept we&rsquo;ve been hammering out for some time, for a <em>very</em>
+batteries-included framework for building apps which make use of Mindfork
+backends.  Since SynapseGarden&rsquo;s community and development will be driven by
+the Mindfork backend, Dash will be used extensively in our web UI.</p>
+
+<p>If our goal was to build our own webapp and backend, the obvious choice would
+be to use an existing set of tools; Ember, Angular, React, and many others
+offer excellent options for anyone who wants to build a particular frontend.</p>
+
+<p>However, what we&rsquo;re really looking to do is to provide tools for people to
+build <em>with minimal effort</em> web applications that make use of
+community-driven data on the Mindfork model.  That means collaboration, human
+networking, and behavioral optimization.</p>
+
+<p>While all of the aforementioned options may prove to be useful to this end,
+what we will distribute to developers who wish to use Mindfork will not look
+like a Javascript framework.  It may be a library, similar to d3js, which
+intelligent data-driven elements can be used from in simple (or complex)
+Javascript.  It may be a set of <a href="http://webcomponents.org/">Web Components</a>.
+Our options are still open; however, we recently made the tough decision to
+abandon our
+<a href="https://github.com/synapse-garden/dash-cljs">Clojurescript frontend</a>.</p>
+
+<h2 id="dart-you-say:6bce3dfe5168a762038ec36830bc213f">Dart you say?</h2>
+
+<p>We believe Dart offers a highly-structured and easily-tested systematic
+approach to web application development.  While we want to offer an easy and
+usable API to people who want to use Dash, we don&rsquo;t particularly care that
+it&rsquo;s easy to open the hood and muck about with.  Most users should not have
+to do that; those who do are intelligent enough to learn Dart, which is a
+very easy and usable language from what little we&rsquo;ve experienced.  Like Go,
+it offers quite excellent tooling out of the box, and does not require any
+third-party software besides the <a href="https://dartlang.org">Dart SDK</a>.  There&rsquo;s
+an excellent plugin for Intellij IDEA, if that&rsquo;s your style; otherwise,
+everything in the Dart SDK is comfortable to use from the command line.</p>
+
+<p>Ultimately, the needs of our community come first and foremost; we are also
+considering ES6, and <a href="http://x-tag.github.io/">X-Tag Web Components</a>.</p>
+
+<h3 id="see-you-next-week:6bce3dfe5168a762038ec36830bc213f">See you next week!</h3>
+
+	
+			
+
+			
+				<div class="tags-list">
+					<span class="dark-red">Tags</span><span class="decorative-marker">//</span>
+					
+	                <a class="post-tag post-tag-update" href="http://blog.synapsegarden.net//tags/update">Update</a>,
+	                
+	                <a class="post-tag post-tag-dev" href="http://blog.synapsegarden.net//tags/dev">Dev</a>,
+	                
+	                <a class="post-tag post-tag-dart" href="http://blog.synapsegarden.net//tags/dart">Dart</a>,
+	                
+	                <a class="post-tag post-tag-polymer" href="http://blog.synapsegarden.net//tags/polymer">Polymer</a>,
+	                
+	                <a class="post-tag post-tag-hugo" href="http://blog.synapsegarden.net//tags/hugo">Hugo</a>,
+	                
+				</div>
+			
+
+			
+				<div class="paging">
+					<span class="paging-label">More Reading</span>
+					
+
+					
+					<div class="paging-older">
+						<span class="dark-red">Older</span><span class="decorative-marker">//</span>
+			            <a class="paging-link" href="/core/welcome/">Welcome</a>
+		            </div>
+		            
+	            </div>
+            
+          </section>
+          
+          	
+          
+        
+      <div class="footer">
+	<hr class="thin" />
+	<div class="pure-menu pure-menu-horizontal pure-menu-open">
+		<ul class="footer-menu">
+		
+			<li><a href="https://github.com/synapse-garden/blog">SG Weblog Source</a></li>
+		
+		</ul>
+	</div>
+
+	<p><i class="fa fa-creative-commons"></i>2015 SynapseGarden.</p>
+</div>
+    </div>
+  </div>
+	
+
+	
+
+  
+</body>
+</html>

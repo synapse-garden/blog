@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SynapseGarden Weblog</title>
-    <link>http://blog.synapsegarden.net/</link>
-    <description>Recent content on SynapseGarden Weblog</description>
+    <title>Polymer on SynapseGarden Weblog</title>
+    <link>http://blog.synapsegarden.net/tags/polymer/</link>
+    <description>Recent content in Polymer on SynapseGarden Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Bodie Solomon</copyright>
     <lastBuildDate>Mon, 14 Dec 2015 05:00:00 -0500</lastBuildDate>
-    <atom:link href="http://blog.synapsegarden.net/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.synapsegarden.net/tags/polymer/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Beginnings</title>
@@ -114,81 +114,6 @@ everything in the Dart SDK is comfortable to use from the command line.&lt;/p&gt
 considering ES6, and &lt;a href=&#34;http://x-tag.github.io/&#34;&gt;X-Tag Web Components&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;see-you-next-week:6bce3dfe5168a762038ec36830bc213f&#34;&gt;See you next week!&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>http://blog.synapsegarden.net/core/welcome/</link>
-      <pubDate>Mon, 07 Dec 2015 05:00:00 -0500</pubDate>
-      
-      <guid>http://blog.synapsegarden.net/core/welcome/</guid>
-      <description>
-
-&lt;p&gt;Hello, and welcome to SynapseGarden: a new network for collaborative creation,
-both online and in the flesh.  Here, you’ll find our thoughts and plans,
-updated early each Monday.&lt;/p&gt;
-
-&lt;h2 id=&#34;what:2cc7dc244eed4480e8b46c91e911e96b&#34;&gt;What?&lt;/h2&gt;
-
-&lt;p&gt;SynapseGarden is a fully free and open platform for a new human ecosystem,
-using technologies devised to empower the construction of communities.  The
-first such community, to which we now invite you, revolves around code;
-building upon that foundation, we will push to enable real-world projects and
-localized human networks.&lt;/p&gt;
-
-&lt;p&gt;SynapseGarden will always work tirelessly to be, and to remain, the prime
-example of such a community.  Ultimately, however, our true hope is that this
-technology will enable many, many, many such communities, wherever people need
-or wish to organize and collaborate.  Our purpose is to act as leaders among a
-brilliant and powerful metacommunity.&lt;/p&gt;
-
-&lt;p&gt;This is our first public statement of purpose.  Now, we’d like to invite you
-to join in.  There’s a great deal to be done, but many hands make light work.
-The reward for this labor is simple but powerful: leadership in a community of
-leaders, and access to labor according to your contribution.&lt;/p&gt;
-
-&lt;h2 id=&#34;why:2cc7dc244eed4480e8b46c91e911e96b&#34;&gt;Why?&lt;/h2&gt;
-
-&lt;p&gt;Crowd labor isn’t, and shouldn’t be free unless it’s donated.  All labor is
-valuable.  Your mind is valuable.  Your ideas are valuable.  We won’t ask or
-expect you to give these things away.&lt;/p&gt;
-
-&lt;p&gt;At our foundation is a repeatable, efficient, and scientific process we’ve
-designed around the needs of such communities: Mindfork.  Mindfork is a
-simple, self-repeating collaboration pattern, which applies principles of
-computing to organic, human work.  We’re building the seed of this technology
-using Google’s Go language, and we’d love to have you along, whether you’re an
-expert or a beginner.&lt;/p&gt;
-
-&lt;p&gt;Mindfork is free software (under Affero GPL), which means its licensing
-preserves your rights to use and modify it as you wish.  Anyone can download
-its source code and use it for themselves as they please, as long as their
-modifications do not interfere with these rights.  We’d like to give this
-software to everyone, because when more people join in a free ecosystem, we
-can all share in more data.  We can all learn more about how people interact
-in communities, and we can all use that knowledge to build better communities,
-together.&lt;/p&gt;
-
-&lt;h2 id=&#34;see-you-around:2cc7dc244eed4480e8b46c91e911e96b&#34;&gt;See you around.&lt;/h2&gt;
-
-&lt;p&gt;We hope you’ve enjoyed learning about what we’re doing, and what is yet to
-come.  We’ll soon have more content up at &lt;a href=&#34;http://synapsegarden.net&#34;&gt;http://synapsegarden.net&lt;/a&gt;; until
-then, you can visit our Github at &lt;a href=&#34;https://github.com/synapse-garden&#34;&gt;https://github.com/synapse-garden&lt;/a&gt; to see
-some of the projects we’ve been working on.&lt;/p&gt;
-
-&lt;p&gt;You can sign up here for more info, and access to our closed alpha services.&lt;/p&gt;
-
-&lt;p&gt;&lt;div id=&#34;reg-email&#34;&gt;&lt;/div&gt;
-
-&lt;div id=&#34;reg-button&#34;&gt;&lt;/div&gt;
-
-&lt;div id=&#34;output&#34;&gt;&lt;/div&gt;
-
-&lt;script async src=&#34;http://blog.synapsegarden.net/script/js/simple-reg.dart.js&#34;&gt;&lt;/script&gt;
-&lt;/p&gt;
-
-&lt;h3 id=&#34;have-a-great-week:2cc7dc244eed4480e8b46c91e911e96b&#34;&gt;Have a great week!&lt;/h3&gt;
 </description>
     </item>
     
