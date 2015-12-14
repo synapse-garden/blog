@@ -15,6 +15,10 @@ copyright = "Bodie Solomon"
 	name = "Core"
 	url = "/core"
 
+[[menu.main]]
+	name = "Dev"
+	url = "/dev"
+
 [[menu.social]]
 	pre = "<i class='fa fa-github'></i>"
 	url = "https://github.com/synapse-garden"
@@ -41,7 +45,7 @@ copyright = "Bodie Solomon"
 
 [params]
 	sidebartitle = "SG"
-	sidebartagline = "Welcome."
+	sidebartagline = "Planting time."
 	description = "The current affairs of SG."
 	twitter = "https://twitter.com/synapsegarden"
 	github = "https://github.com/synapse-garden"
