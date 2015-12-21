@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cores on SynapseGarden Weblog</title>
-    <link>http://blog.synapsegarden.net/core/</link>
+    <link>https://blog.synapsegarden.net/core/</link>
     <description>Recent content in Cores on SynapseGarden Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Bodie Solomon</copyright>
     <lastBuildDate>Mon, 07 Dec 2015 10:00:00 -0500</lastBuildDate>
-    <atom:link href="http://blog.synapsegarden.net/core/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.synapsegarden.net/core/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Welcome</title>
-      <link>http://blog.synapsegarden.net/core/welcome/</link>
+      <link>https://blog.synapsegarden.net/core/welcome/</link>
       <pubDate>Mon, 07 Dec 2015 10:00:00 -0500</pubDate>
       
-      <guid>http://blog.synapsegarden.net/core/welcome/</guid>
+      <guid>https://blog.synapsegarden.net/core/welcome/</guid>
       <description>
 
 &lt;p&gt;Hello, and welcome to SynapseGarden: a new network for collaborative creation,
@@ -78,7 +78,7 @@ some of the projects we’ve been working on.&lt;/p&gt;
 
 &lt;div id=&#34;output&#34;&gt;&lt;/div&gt;
 
-&lt;script async src=&#34;http://blog.synapsegarden.net/script/js/simple-reg.dart.js&#34;&gt;&lt;/script&gt;
+&lt;script async src=&#34;https://blog.synapsegarden.net/script/js/simple-reg.dart.js&#34;&gt;&lt;/script&gt;
 &lt;/p&gt;
 
 &lt;h3 id=&#34;have-a-great-week:2cc7dc244eed4480e8b46c91e911e96b&#34;&gt;Have a great week!&lt;/h3&gt;

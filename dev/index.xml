@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devs on SynapseGarden Weblog</title>
-    <link>http://blog.synapsegarden.net/dev/</link>
+    <link>https://blog.synapsegarden.net/dev/</link>
     <description>Recent content in Devs on SynapseGarden Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Bodie Solomon</copyright>
     <lastBuildDate>Mon, 14 Dec 2015 05:00:00 -0500</lastBuildDate>
-    <atom:link href="http://blog.synapsegarden.net/dev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.synapsegarden.net/dev/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Beginnings</title>
-      <link>http://blog.synapsegarden.net/dev/beginnings/</link>
+      <link>https://blog.synapsegarden.net/dev/beginnings/</link>
       <pubDate>Mon, 14 Dec 2015 05:00:00 -0500</pubDate>
       
-      <guid>http://blog.synapsegarden.net/dev/beginnings/</guid>
+      <guid>https://blog.synapsegarden.net/dev/beginnings/</guid>
       <description>
 
 &lt;p&gt;In which a brief overview of current SG software and roadmap is given.  This
@@ -26,7 +26,7 @@ browser client for the prototype Mindfork backend we have running here:&lt;/p&gt
 
 &lt;p&gt;&lt;div id=&#34;source&#34;&gt;&lt;/div&gt;
 
-&lt;script async src=&#34;http://blog.synapsegarden.net/script/js/source.dart.js&#34;&gt;&lt;/script&gt;
+&lt;script async src=&#34;https://blog.synapsegarden.net/script/js/source.dart.js&#34;&gt;&lt;/script&gt;
 &lt;/p&gt;
 
 &lt;h2 id=&#34;polymer-dart-does-not-play-well-with-others:6bce3dfe5168a762038ec36830bc213f&#34;&gt;Polymer-Dart: does not play well with others.&lt;/h2&gt;
