@@ -4,7 +4,7 @@ mydate="$(date -u --rfc-2822)"
 buildid="$(echo "$mydate" | tr -d ' ',',','+',':')"
 git checkout --orphan "${buildid}"
 
-hugo -b 'http://blog.synapsegarden.net'
+hugo
 rm config.toml README.md .gitignore LICENSE
 rm -rf content layouts themes static .gitmodules
 mv public/* ./
