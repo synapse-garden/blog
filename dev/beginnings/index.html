@@ -167,7 +167,7 @@
             
 
 <p>In which a brief overview of current SG software and roadmap is given.  This
-week&rsquo;s adventures: Dart, Polymer, and Hugo.</p>
+week’s adventures: Dart, Polymer, and Hugo.</p>
 
 <p>Hello again.  This week our attention has been focused on creating a small
 browser client for the prototype Mindfork backend we have running here:</p>
@@ -183,7 +183,7 @@ browser client for the prototype Mindfork backend we have running here:</p>
 Pages.  Embedded scripts must therefore require minimal modification to HTML
 content, since it is generated from Markdown.</p>
 
-<p>This sets the expectations well for our web client.  Right now we&rsquo;re working
+<p>This sets the expectations well for our web client.  Right now we’re working
 out the details of our client architecture, but there are some basic
 requirements out the gate:</p>
 
@@ -193,7 +193,7 @@ requirements out the gate:</p>
 <li>These components must offer backend connectors for Mindfork.</li>
 </ul>
 
-<p>We therefore kept these elements at the forefront during the week&rsquo;s work with
+<p>We therefore kept these elements at the forefront during the week’s work with
 <a href="https://github.com/dart-lang/polymer-dart">Polymer-Dart</a>.  Alas, it is far
 from a match made in heaven.  While Polymer-Dart seems to meet our needs
 nicely, the reality is that it has strong expectations about the structure
@@ -201,40 +201,40 @@ and content of the entire site it works within, to the extent that it
 generates the HTML index which it expects to work with, with significant
 mangling.</p>
 
-<p>It&rsquo;s possible this could be picked apart and found to be workable, and we&rsquo;d
-love for it to be.  However, it doesn&rsquo;t look like this is the framework we
+<p>It’s possible this could be picked apart and found to be workable, and we’d
+love for it to be.  However, it doesn’t look like this is the framework we
 need for Dash.</p>
 
 <h2 id="this-week:6bce3dfe5168a762038ec36830bc213f">This week</h2>
 
 <p>The next section is a brief overview of our week exploring Polymer-Dart for
-our Dash frontend.  In this section, we&rsquo;ll outline what we&rsquo;re working on this
+our Dash frontend.  In this section, we’ll outline what we’re working on this
 week.</p>
 
 <p>Right now, we have a simple prototype Mindfork service running at
 <a href="https://mfp.synapsegarden.net:25000">https://mfp.synapsegarden.net:25000</a>.  The source is linked above; we
 encourage you to review the API and open a pull request if you see anything
-you&rsquo;d like to add.</p>
+you’d like to add.</p>
 
-<p>In the meantime, we&rsquo;re pushing forward on offering an embedded web login
-panel and a few other features (e.g. password reset) so that logins can be
+<p>In the meantime, we’re pushing forward on offering an embedded web login
+panel and a few other features (e.g.  password reset) so that logins can be
 handed out and automated collaboration begin in earnest.</p>
 
 <h2 id="dash-you-say:6bce3dfe5168a762038ec36830bc213f">Dash you say?</h2>
 
-<p>Dash is a concept we&rsquo;ve been hammering out for some time, for a <em>very</em>
-batteries-included framework for building apps which make use of Mindfork
-backends.  Since SynapseGarden&rsquo;s community and development will be driven by
+<p>Dash is a concept we’ve been hammering out for some time, for a very
+atteries-included framework for building apps which make use of Mindfork
+backends.  Since SynapseGarden’s community and development will be driven by
 the Mindfork backend, Dash will be used extensively in our web UI.</p>
 
 <p>If our goal was to build our own webapp and backend, the obvious choice would
 be to use an existing set of tools; Ember, Angular, React, and many others
 offer excellent options for anyone who wants to build a particular frontend.</p>
 
-<p>However, what we&rsquo;re really looking to do is to provide tools for people to
-build <em>with minimal effort</em> web applications that make use of
-community-driven data on the Mindfork model.  That means collaboration, human
-networking, and behavioral optimization.</p>
+<p>However, what we’re really looking to do is to provide tools for people to
+build <em>with minimal effort</em> web applications that make use of community-driven
+data on the Mindfork model.  That means collaboration, human networking, and
+behavioral optimization.</p>
 
 <p>While all of the aforementioned options may prove to be useful to this end,
 what we will distribute to developers who wish to use Mindfork will not look
@@ -249,14 +249,15 @@ abandon our
 
 <p>We believe Dart offers a highly-structured and easily-tested systematic
 approach to web application development.  While we want to offer an easy and
-usable API to people who want to use Dash, we don&rsquo;t particularly care that
-it&rsquo;s easy to open the hood and muck about with.  Most users should not have
-to do that; those who do are intelligent enough to learn Dart, which is a
-very easy and usable language from what little we&rsquo;ve experienced.  Like Go,
-it offers quite excellent tooling out of the box, and does not require any
-third-party software besides the <a href="https://dartlang.org">Dart SDK</a>.  There&rsquo;s
-an excellent plugin for Intellij IDEA, if that&rsquo;s your style; otherwise,
-everything in the Dart SDK is comfortable to use from the command line.</p>
+usable API to people who want to use Dash, we don’t particularly care that
+it’s easy to open the hood and muck about with.  Most users should not have to
+do that; those who do are intelligent enough to learn Dart, which is a very
+easy and usable language from what little we’ve experienced.  Like Go, it
+offers quite excellent tooling out of the box, and does not require any
+third-party software besides the <a href="https://dartlang.org/">Dart SDK</a>.
+There’s an excellent plugin for Intellij IDEA, if that’s your style;
+otherwise, everything in the Dart SDK is comfortable to use from the command
+line.</p>
 
 <p>Ultimately, the needs of our community come first and foremost; we are also
 considering ES6, and <a href="http://x-tag.github.io/">X-Tag Web Components</a>.</p>
