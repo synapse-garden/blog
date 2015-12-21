@@ -1,4 +1,4 @@
-baseurl = "http://blog.synapsegarden.net"
+baseurl = "https://blog.synapsegarden.net"
 languageCode = "en-us"
 title = "SynapseGarden Weblog"
 theme = "redlounge"
