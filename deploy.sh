@@ -16,7 +16,15 @@ rm deploy.sh
 git add . --all
 
 git commit -m "Build ${buildid}"
-git checkout gh-pages
+
+if [ `git branch --list gh-pages` ] ; then
+  git checkout gh-pages
+else
+  git checkout upstream/gh-pages
+  git checkout -b gh-pages
+  git branch --set-upstream-to=upstream/gh-pages
+fi
+
 rm -rf *
 git checkout "${buildid}" -- . # Checkout everything
 git add . --all
