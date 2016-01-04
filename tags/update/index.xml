@@ -7,8 +7,53 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Bodie Solomon</copyright>
-    <lastBuildDate>Mon, 14 Dec 2015 05:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 04 Jan 2016 17:51:14 -0500</lastBuildDate>
     <atom:link href="https://blog.synapsegarden.net/tags/update/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2016</title>
+      <link>https://blog.synapsegarden.net/core/2016/</link>
+      <pubDate>Mon, 04 Jan 2016 17:51:14 -0500</pubDate>
+      
+      <guid>https://blog.synapsegarden.net/core/2016/</guid>
+      <description>
+
+&lt;p&gt;Welcome back to the SynapseGarden blog in the year 2016!  We&amp;rsquo;ll unfold our near-
+term plans for Mindfork and its users.&lt;/p&gt;
+
+&lt;h2 id=&#34;plans:26d60b987087598cf4f2d6dedb251778&#34;&gt;Plans&lt;/h2&gt;
+
+&lt;p&gt;Things have been slow for SG over the Christmas holidays.  Today we had a brief
+team meeting to get back on our feet, and plotted out a few plans for the next
+few weeks.&lt;/p&gt;
+
+&lt;p&gt;SynapseGarden has a number of projects on the back burner.
+We&amp;rsquo;ve been working on and off for some time on a concept for a game inspired by
+&lt;a href=&#34;http://www.bay12games.com/dwarves/&#34;&gt;Dwarf Fortress&lt;/a&gt;, a truly remarkable
+&amp;ldquo;roguelike&amp;rdquo; world simulator.  This week we&amp;rsquo;re evaluating engine options to make
+a serious go of it, and sketching up an extensible client/server model for
+multi-player.  We have a bit of preliminary client content on our Github at
+&lt;a href=&#34;https://github.com/synapse-garden/phoenix&#34;&gt;https://github.com/synapse-garden/phoenix&lt;/a&gt; and
+&lt;a href=&#34;https://github.com/synapse-garden/phoenix-cxx&#34;&gt;https://github.com/synapse-garden/phoenix-cxx&lt;/a&gt;.  We are considering switching to
+Unreal Engine for more efficient work, but the game universe is highly
+procedural.  More research is required.&lt;/p&gt;
+
+&lt;p&gt;On the Mindfork front, we&amp;rsquo;ll be adding TLS to all of our webservices, to match
+our site.  We also will be striking forward on a main site at
+&lt;a href=&#34;https://synapsegarden.net&#34;&gt;https://synapsegarden.net&lt;/a&gt;.  Hopefully we&amp;rsquo;ll have some great content for you on
+that topic next week!&lt;/p&gt;
+
+&lt;h2 id=&#34;progress:26d60b987087598cf4f2d6dedb251778&#34;&gt;Progress&lt;/h2&gt;
+
+&lt;p&gt;We&amp;rsquo;ve updated the SG Weblog to exclusively use HTTPS.  We host on
+&lt;a href=&#34;https://pages.github.com&#34;&gt;Github Pages&lt;/a&gt;, so it was a bit of an adventure to get
+our custom URL working.  We ended up using
+&lt;a href=&#34;https://cloudflare.com&#34;&gt;CloudFlare&amp;rsquo;s&lt;/a&gt; static site caching, which offers the
+option to default to HTTPS on page view.&lt;/p&gt;
+
+&lt;h3 id=&#34;stay-tuned:26d60b987087598cf4f2d6dedb251778&#34;&gt;Stay tuned!&lt;/h3&gt;
+</description>
+    </item>
     
     <item>
       <title>Beginnings</title>
