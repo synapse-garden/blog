@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mydate="$(date -u --rfc-2822)"
+mydate="$(date -u +'%a, %d %b %Y  %T %z')"
 buildid="$(echo "$mydate" | tr -d ' ',',','+',':')"
 git checkout --orphan "${buildid}"
 
