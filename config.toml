@@ -20,6 +20,10 @@ copyright = "Bodie Solomon"
 	name = "Dev"
 	url = "/dev"
 
+[[menu.main]]
+	name = "Updates"
+	url = "/update"
+
 [[menu.social]]
 	pre = "<i class='fa fa-github'></i>"
 	url = "https://github.com/synapse-garden"
