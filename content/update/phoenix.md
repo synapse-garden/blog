@@ -30,6 +30,9 @@ core site, where our collaboration efforts will take place.  It will also be
 suitable for others to build their own frontends to their own custom Mindfork
 deploys.
 
+We think Web Components will help us provide exactly what people will need to
+build great Dash sites with minimal difficulty.
+
 ## Phoenix
 
 [Phoenix Engine](https://github.com/synapse-garden/phoenix) is currently a
