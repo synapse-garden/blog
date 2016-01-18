@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
   <title>
-    2016 // SynapseGarden Weblog
+    Phoenix // SynapseGarden Weblog
   </title>
 
   <link href="http://gmpg.org/xfn/11" rel="profile">
@@ -11,16 +11,16 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-<meta name="description" content="">
+<meta name="description" content="An introduction to Phoenix">
 <meta name="keywords" content="">
 <meta name="author" content="">
 <meta name="generator" content="Hugo 0.16-DEV" />
 
-  <meta property="og:title" content="2016" />
-<meta property="og:description" content="" />
+  <meta property="og:title" content="Phoenix" />
+<meta property="og:description" content="An introduction to Phoenix" />
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="en_US" />
-<meta property="og:url" content="https://blog.synapsegarden.net/core/2016/" />
+<meta property="og:url" content="https://blog.synapsegarden.net/update/phoenix/" />
 
 
   
@@ -132,10 +132,12 @@
 <ul>
 <li>
 <ul>
-<li><a href="#plans:26d60b987087598cf4f2d6dedb251778">Plans</a></li>
-<li><a href="#progress:26d60b987087598cf4f2d6dedb251778">Progress</a>
+<li><a href="#web-components:4cc618470dee3000e078685ec8030c75">Web Components</a></li>
+<li><a href="#dash:4cc618470dee3000e078685ec8030c75">Dash</a></li>
+<li><a href="#phoenix:4cc618470dee3000e078685ec8030c75">Phoenix</a>
 <ul>
-<li><a href="#stay-tuned:26d60b987087598cf4f2d6dedb251778">Stay tuned!</a></li>
+<li><a href="#compile-time-generics-in-go:4cc618470dee3000e078685ec8030c75">Compile-Time Generics in Go?</a></li>
+<li><a href="#until-next-week:4cc618470dee3000e078685ec8030c75">Until next week!</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -145,14 +147,14 @@
 	    
   		<section class="post">
             <h1 class="post-title">
-              <a href="/core/2016/">2016</a>
+              <a href="/update/phoenix/">Phoenix</a>
             </h1>
             <h3 class="post-subtitle">
             	
             </h3>
             
             	<span class="post-date">
-                	<span class="post-date-day"><sup>4</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Jan</span> <span class="post-date-year">2016</span>
+                	<span class="post-date-day"><sup>18</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Jan</span> <span class="post-date-year">2016</span>
             	</span>
             	
             
@@ -174,40 +176,67 @@
 
             
 
-<p>Welcome back to the SynapseGarden blog in the year 2016!  We&rsquo;ll unfold our near-
-term plans for Mindfork and its users.</p>
+<p>Work is progressing on revising the SG Weblog&rsquo;s Dart scripts into
+<a href="http://x-tag.github.io/">X-Tags</a>.  We&rsquo;re also pushing forward on a profound
+revision to <a href="https://github.com/go-phoenix/phoenix">Phoenix Engine in Go</a>.</p>
 
-<h2 id="plans:26d60b987087598cf4f2d6dedb251778">Plans</h2>
+<h2 id="web-components:4cc618470dee3000e078685ec8030c75">Web Components</h2>
 
-<p>Things have been slow for SG over the Christmas holidays.  Today we had a brief
-team meeting to get back on our feet, and plotted out a few plans for the next
-few weeks.</p>
+<p>We think Web Components are a good approach to solving the problems of
+declarative DOM encapsulation without resorting to programming techniques which
+turn web standards on their heads.  We&rsquo;ve been sketching up some example Web
+Components using X-Tags, which embed very cleanly in Hugo.  Experiments with
+<a href="https://www.polymer-project.org/1.0/">Polymer</a> are also in the works.</p>
 
-<p>SynapseGarden has a number of projects on the back burner.
-We&rsquo;ve been working on and off for some time on a concept for a game inspired by
-<a href="http://www.bay12games.com/dwarves/">Dwarf Fortress</a>, a truly remarkable
-&ldquo;roguelike&rdquo; world simulator.  This week we&rsquo;re evaluating engine options to make
-a serious go of it, and sketching up an extensible client/server model for
-multi-player.  We have a bit of preliminary client content on our Github at
-<a href="https://github.com/synapse-garden/phoenix">https://github.com/synapse-garden/phoenix</a> and
-<a href="https://github.com/synapse-garden/phoenix-cxx">https://github.com/synapse-garden/phoenix-cxx</a>.  We are considering switching to
-Unreal Engine for more efficient work, but the game universe is highly
-procedural.  More research is required.</p>
+<h2 id="dash:4cc618470dee3000e078685ec8030c75">Dash</h2>
 
-<p>On the Mindfork front, we&rsquo;ll be adding TLS to all of our webservices, to match
-our site.  We also will be striking forward on a main site at
-<a href="https://synapsegarden.net">https://synapsegarden.net</a>.  Hopefully we&rsquo;ll have some great content for you on
-that topic next week!</p>
+<p>One of SynapseGarden&rsquo;s top priorities is to deliver a packaged frontend toolkit
+for Mindfork, which we&rsquo;re calling Dash.  Dash will be the foundation for the SG
+core site, where our collaboration efforts will take place.  It will also be
+suitable for others to build their own frontends to their own custom Mindfork
+deploys.</p>
 
-<h2 id="progress:26d60b987087598cf4f2d6dedb251778">Progress</h2>
+<h2 id="phoenix:4cc618470dee3000e078685ec8030c75">Phoenix</h2>
 
-<p>We&rsquo;ve updated the SG Weblog to exclusively use HTTPS.  We host on
-<a href="https://pages.github.com">Github Pages</a>, so it was a bit of an adventure to get
-our custom URL working.  We ended up using
-<a href="https://cloudflare.com">CloudFlare&rsquo;s</a> static site caching, which offers the
-option to default to HTTPS on page view.</p>
+<p><a href="https://github.com/synapse-garden/phoenix">Phoenix Engine</a> is currently a
+small, experimental OpenGL Scala game engine for building procedural universes.</p>
 
-<h3 id="stay-tuned:26d60b987087598cf4f2d6dedb251778">Stay tuned!</h3>
+<p>Scala is a less-than-optimal choice for such a project.  We&rsquo;re exploring other
+options for it, and have
+<a href="https://github.com/synapse-garden/phoenix-cxx">a small C++11 port</a>.</p>
+
+<p>A core design goal for Phoenix is to be suitable for fully fluid cross-platform
+builds.  While the C++ version is suitable, its build tooling is a challenge for
+junior developers to engage with.</p>
+
+<p>Ultimately, Go&rsquo;s performance
+<a href="http://blog.golang.org/profiling-go-programs">compares favorably with C++</a>.  We
+have kept our eyes on Go packages for working with OpenGL and native windowing
+for some time, and it appears these are now in good shape for production-ready
+software.  Go&rsquo;s garbage collector is also now concurrent as of Go 1.5 and
+reduces GC pauses to suitable intervals for game development.</p>
+
+<p>We feel that Go will reduce barriers to entry for work on Phoenix, as well as
+engaging what is a very active and healthy community ecosystem.  It also offers
+fluid, simple concurrency structures and an amazingly clean build chain.</p>
+
+<p>However, it lacks in-language compile-time generics, which could be a serious
+performance issue in a CPU-intensive game engine.</p>
+
+<h3 id="compile-time-generics-in-go:4cc618470dee3000e078685ec8030c75">Compile-Time Generics in Go?</h3>
+
+<p>Therefore, we&rsquo;ve developed a concept for a generative meta-engine in Go.
+Phoenix will generate code using Go&rsquo;s packages, using an extensible set of
+packages for UI, models, and graphics.  The first target project is a GUI SDK
+for using Phoenix.</p>
+
+<p>We think that thanks to <a href="https://github.com/gopherjs/gopherjs">GopherJS</a>, this
+can be accomplished cleanly using Go, on essentially any platform a UI package
+can be written for, i.e., Windows, Linux, OS X, iOS, Android, and browser.</p>
+
+<p>We&rsquo;re very excited to demo the new Phoenix!</p>
+
+<h3 id="until-next-week:4cc618470dee3000e078685ec8030c75">Until next week!</h3>
 
 	
 			
@@ -225,16 +254,11 @@ option to default to HTTPS on page view.</p>
 				<div class="paging">
 					<span class="paging-label">More Reading</span>
 					
-					<div class="paging-newer">
-						<span class="dark-red">Newer</span><span class="decorative-marker">//</span>
-						<a class="paging-link" href="/update/phoenix/">Phoenix</a>
-		            </div>
-		            
 
 					
 					<div class="paging-older">
 						<span class="dark-red">Older</span><span class="decorative-marker">//</span>
-			            <a class="paging-link" href="/dev/beginnings/">Beginnings</a>
+			            <a class="paging-link" href="/core/2016/">2016</a>
 		            </div>
 		            
 	            </div>
@@ -244,9 +268,9 @@ option to default to HTTPS on page view.</p>
           	<div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'sg-hugo-blog';
-    var disqus_identifier = 'https:\/\/blog.synapsegarden.net\/core\/2016\/';
-    var disqus_title = '2016';
-    var disqus_url = 'https:\/\/blog.synapsegarden.net\/core\/2016\/';
+    var disqus_identifier = 'https:\/\/blog.synapsegarden.net\/update\/phoenix\/';
+    var disqus_title = 'Phoenix';
+    var disqus_url = 'https:\/\/blog.synapsegarden.net\/update\/phoenix\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

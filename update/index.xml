@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates on SynapseGarden Weblog</title>
+    <link>https://blog.synapsegarden.net/update/</link>
+    <description>Recent content in Updates on SynapseGarden Weblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Bodie Solomon</copyright>
+    <lastBuildDate>Mon, 18 Jan 2016 08:38:51 -0500</lastBuildDate>
+    <atom:link href="https://blog.synapsegarden.net/update/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Phoenix</title>
+      <link>https://blog.synapsegarden.net/update/phoenix/</link>
+      <pubDate>Mon, 18 Jan 2016 08:38:51 -0500</pubDate>
+      
+      <guid>https://blog.synapsegarden.net/update/phoenix/</guid>
+      <description>
+
+&lt;p&gt;Work is progressing on revising the SG Weblog&amp;rsquo;s Dart scripts into
+&lt;a href=&#34;http://x-tag.github.io/&#34;&gt;X-Tags&lt;/a&gt;.  We&amp;rsquo;re also pushing forward on a profound
+revision to &lt;a href=&#34;https://github.com/go-phoenix/phoenix&#34;&gt;Phoenix Engine in Go&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;web-components:4cc618470dee3000e078685ec8030c75&#34;&gt;Web Components&lt;/h2&gt;
+
+&lt;p&gt;We think Web Components are a good approach to solving the problems of
+declarative DOM encapsulation without resorting to programming techniques which
+turn web standards on their heads.  We&amp;rsquo;ve been sketching up some example Web
+Components using X-Tags, which embed very cleanly in Hugo.  Experiments with
+&lt;a href=&#34;https://www.polymer-project.org/1.0/&#34;&gt;Polymer&lt;/a&gt; are also in the works.&lt;/p&gt;
+
+&lt;h2 id=&#34;dash:4cc618470dee3000e078685ec8030c75&#34;&gt;Dash&lt;/h2&gt;
+
+&lt;p&gt;One of SynapseGarden&amp;rsquo;s top priorities is to deliver a packaged frontend toolkit
+for Mindfork, which we&amp;rsquo;re calling Dash.  Dash will be the foundation for the SG
+core site, where our collaboration efforts will take place.  It will also be
+suitable for others to build their own frontends to their own custom Mindfork
+deploys.&lt;/p&gt;
+
+&lt;h2 id=&#34;phoenix:4cc618470dee3000e078685ec8030c75&#34;&gt;Phoenix&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/synapse-garden/phoenix&#34;&gt;Phoenix Engine&lt;/a&gt; is currently a
+small, experimental OpenGL Scala game engine for building procedural universes.&lt;/p&gt;
+
+&lt;p&gt;Scala is a less-than-optimal choice for such a project.  We&amp;rsquo;re exploring other
+options for it, and have
+&lt;a href=&#34;https://github.com/synapse-garden/phoenix-cxx&#34;&gt;a small C++11 port&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A core design goal for Phoenix is to be suitable for fully fluid cross-platform
+builds.  While the C++ version is suitable, its build tooling is a challenge for
+junior developers to engage with.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, Go&amp;rsquo;s performance
+&lt;a href=&#34;http://blog.golang.org/profiling-go-programs&#34;&gt;compares favorably with C++&lt;/a&gt;.  We
+have kept our eyes on Go packages for working with OpenGL and native windowing
+for some time, and it appears these are now in good shape for production-ready
+software.  Go&amp;rsquo;s garbage collector is also now concurrent as of Go 1.5 and
+reduces GC pauses to suitable intervals for game development.&lt;/p&gt;
+
+&lt;p&gt;We feel that Go will reduce barriers to entry for work on Phoenix, as well as
+engaging what is a very active and healthy community ecosystem.  It also offers
+fluid, simple concurrency structures and an amazingly clean build chain.&lt;/p&gt;
+
+&lt;p&gt;However, it lacks in-language compile-time generics, which could be a serious
+performance issue in a CPU-intensive game engine.&lt;/p&gt;
+
+&lt;h3 id=&#34;compile-time-generics-in-go:4cc618470dee3000e078685ec8030c75&#34;&gt;Compile-Time Generics in Go?&lt;/h3&gt;
+
+&lt;p&gt;Therefore, we&amp;rsquo;ve developed a concept for a generative meta-engine in Go.
+Phoenix will generate code using Go&amp;rsquo;s packages, using an extensible set of
+packages for UI, models, and graphics.  The first target project is a GUI SDK
+for using Phoenix.&lt;/p&gt;
+
+&lt;p&gt;We think that thanks to &lt;a href=&#34;https://github.com/gopherjs/gopherjs&#34;&gt;GopherJS&lt;/a&gt;, this
+can be accomplished cleanly using Go, on essentially any platform a UI package
+can be written for, i.e., Windows, Linux, OS X, iOS, Android, and browser.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;re very excited to demo the new Phoenix!&lt;/p&gt;
+
+&lt;h3 id=&#34;until-next-week:4cc618470dee3000e078685ec8030c75&#34;&gt;Until next week!&lt;/h3&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
