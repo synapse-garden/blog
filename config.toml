@@ -50,10 +50,10 @@ copyright = "Bodie Solomon"
 
 [params]
 	sidebartitle = "SG"
-	sidebartagline = "2016"
+	sidebartagline = "Phoenix Rising"
 	description = "The current affairs of SG."
 	twitter = "https://twitter.com/synapsegarden"
 	github = "https://github.com/synapse-garden"
 	gplus = "https://plus.google.com/+BodieSolomon"
 	gaid = "UA-49714021-1"
-	Copyright = "2015 SynapseGarden."
+	Copyright = "2015, 2016 SynapseGarden."
